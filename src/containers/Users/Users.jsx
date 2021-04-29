@@ -16,6 +16,7 @@ export default function Users(props) {
         <tr key={user.id}>
             <td>{user.id}</td>
             <td>{user.name}</td>
+            <td>{user.phone}</td>
             <td>{user.email}</td>
             <td>{user.country}</td>
             <td>{user.age}</td>
@@ -64,6 +65,7 @@ export default function Users(props) {
                     <th>id</th>
                     <th>Name</th>
                     <th>Phone</th>
+                    <th>Email</th>
                     <th>Country</th>
                     <th>Age</th>
                     <th>Buttons</th>
